@@ -153,7 +153,7 @@ async function initConfig() {
               SiteName: process.env.SITE_NAME || 'MoonTV',
               Announcement:
                 process.env.NEXT_PUBLIC_ANNOUNCEMENT ||
-                '本网站仅对 李玉 小姐提供影视信息搜索服务，所有内容均来自第三方网站。',
+                '本网站仅对 李玉 小姐提供影视信息搜索服务。',
               SearchDownstreamMaxPage:
                 Number(process.env.NEXT_PUBLIC_SEARCH_MAX_PAGE) || 5,
               SiteInterfaceCacheTime: fileConfig.cache_time || 7200,
@@ -193,7 +193,7 @@ async function initConfig() {
         SiteName: process.env.SITE_NAME || 'MoonTV',
         Announcement:
           process.env.NEXT_PUBLIC_ANNOUNCEMENT ||
-          '本网站仅对 李玉 小姐提供影视信息搜索服务，所有内容均来自第三方网站。',
+          '本网站仅对 李玉 小姐提供影视信息搜索服务。',
         SearchDownstreamMaxPage:
           Number(process.env.NEXT_PUBLIC_SEARCH_MAX_PAGE) || 5,
         SiteInterfaceCacheTime: fileConfig.cache_time || 7200,
@@ -253,7 +253,7 @@ export async function resetConfig() {
       SiteName: process.env.SITE_NAME || 'MoonTV',
       Announcement:
         process.env.NEXT_PUBLIC_ANNOUNCEMENT ||
-        '本网站仅对 李玉 小姐提供影视信息搜索服务，所有内容均来自第三方网站。',
+        '本网站仅对 李玉 小姐提供影视信息搜索服务。',
       SearchDownstreamMaxPage:
         Number(process.env.NEXT_PUBLIC_SEARCH_MAX_PAGE) || 5,
       SiteInterfaceCacheTime: fileConfig.cache_time || 7200,
